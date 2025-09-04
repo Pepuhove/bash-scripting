@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for VAR1 in java .net python ruby php
+do 
+	echo "looping............."
+	echo
+	echo "Value of VAR1 is $VAR1."
+	sleep 2
+	echo 
+	date
+	echo
+done
